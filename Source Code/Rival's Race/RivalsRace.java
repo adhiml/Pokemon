@@ -4,13 +4,11 @@ import java.util.Random;
 import java.util.*;
 
 /*
-        MapTools = contains basic function of graphs (fro the map)
-                 = town (node), edge (weight and adjacent node)
-                 = MapTools is to connect each nodes and its neighbors with one another
+        Town     = contains basic function of graphs (from the map
 
-        RivalsRaceMap = initialize each town, its neighbors and weight         
+        RivalsRaceMap = initialize each town, its neighbours and weight         
 
-        RandomSelectionAlgorithm = select random target town to race to
+        RandomSelectionAlgorithm = Select random target town to race to
 
         DijkstraAlgorithm = Find the shortest path to go to the "target"
 
